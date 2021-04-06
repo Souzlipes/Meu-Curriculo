@@ -1,0 +1,186 @@
+/*Editores universais*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*****************************/
+
+
+/*Cabeçalho*/
+
+.cabecalho {
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(37, 37, 37);
+}
+
+.menu {
+    margin: 0 auto;
+    height: 100px;
+}
+
+.menu h1 {
+    display: none;
+    opacity: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+.menu ul li a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.7vw;
+    width: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.saudacao {
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+    height: 500px;
+    width: 69.5%;
+    max-width: 69%;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 30px;
+    float: left;
+    background-color: rgb(37, 37, 37);
+    opacity: 1;
+    background-image: url(img/coffe.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 8px;
+}
+
+.apresentacao {
+    margin: 0 auto;
+    font-size: 1.4vw;
+    width: 60%;
+    color: rgb(255, 255, 255);
+    margin-top: 300px;
+}
+
+.me {
+    margin: 0 auto;
+    text-align: center;
+    width: 28%;
+    float: left;
+    color: white;
+}
+
+.me img {
+    max-width: 75px;
+}
+
+.me .p2 {
+    margin-top: 132px;
+}
+
+.icones-sociais ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.icones-sociais ul li a {
+    display: flex;
+    width: 0px;
+}
+
+.icones-sociais ul li a img {
+    width: 2vw;
+    height: 2vw;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+@media only screen and (max-width: 1332px) {
+    .saudacao {
+        font-family: 'Mulish', sans-serif;
+        width: 68.5%;
+    }
+}
+
+@media only screen and (max-width: 1142px) {
+    .saudacao {
+        font-family: 'Mulish', sans-serif;
+        width: 67.5%;
+    }
+    .me {
+        width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .icones-sociais ul li {
+        padding: 2vw;
+    }
+}
+
+@media only screen and (max-width: 791px) {
+    .cabecalho {
+        height: auto;
+    }
+    .menu {
+        text-align: center;
+        margin: 0 auto;
+        height: auto;
+    }
+    .menu nav h1 {
+        display: inline;
+        opacity: 1;
+    }
+    .menu .navegacao ul li {
+        color: white;
+        display: block;
+        margin-left: 0px;
+        padding: 1%;
+    }
+    .menu .navegacao {
+        width: 700px;
+        color: white;
+        background-color: rgb(37, 37, 37);
+        height: 2.8em;
+        overflow: hidden;
+        transition: height 3s;
+    }
+    .navegacao:hover,
+    .navegacao:focus,
+    .navegacao:active {
+        height: 14em;
+    }
+    .saudacao {
+        width: 100%;
+        margin-top: -38%;
+        margin-left: 10%;
+        padding-left: 18%;
+        float: none;
+    }
+    .apresentacao {
+        margin: content: '\F077E';
+        ;
+        text-align: center;
+    }
+}
+
+
+/*****************************/
