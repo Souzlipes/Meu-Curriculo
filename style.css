@@ -16,6 +16,9 @@
 a {
     text-decoration: none;
 }
+body{
+    background-color: rgb(228, 228, 228);
+}
 
 
 /*****************************/
@@ -176,11 +179,36 @@ a {
         float: none;
     }
     .apresentacao {
-        margin: content: '\F077E';
-        ;
+        margin: content '\F077E';
+        
         text-align: center;
     }
 }
 
 
 /*****************************/
+
+/*Corpo principal*/
+
+.container-principal{
+    padding-top: 50px;
+    width: 1350px;
+    margin: 0 auto;
+    color: rgb(37, 37, 37);
+}
+
+.sobre{
+    width: 675px;
+    padding-bottom: 50px;
+}
+
+.sobre h2{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+.sobre h3{
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    line-height:1.8;
+}
+
